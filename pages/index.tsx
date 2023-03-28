@@ -5,7 +5,9 @@ const Home: NextPage = () => {
   return (
     <div className="container mx-auto">
       <h1 className="text-4xl">React Table Sticky Header </h1>
-      <Table />
+      <div className="max-h-[400px] overflow-y-auto">
+        <Table />
+      </div>
     </div>
   );
 };
